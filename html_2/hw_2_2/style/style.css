@@ -1,0 +1,46 @@
+body {
+  color: wheat;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.father {
+  width: 800px;
+  height: 700px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  background: blue;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background: silver;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  background: teal;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
